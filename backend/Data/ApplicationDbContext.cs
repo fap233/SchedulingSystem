@@ -1,4 +1,4 @@
-using Mycrosoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using SchedulingSystem.Api.Models;
 
 namespace SchedulingSystem.Api.Data

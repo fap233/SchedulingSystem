@@ -8,7 +8,7 @@ namespace SchedulingSystem.Api.Models
 
     public int ClientId { get; set; }
     [ForeignKey("ClientId")]
-    public client? Client { get; set; }
+    public Client? Client { get; set; }
 
     public int ServiceId { get; set; }
     [ForeignKey("ServiceId")]

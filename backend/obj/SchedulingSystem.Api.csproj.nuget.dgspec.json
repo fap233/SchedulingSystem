@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/fellipe/MyProjects/SchedulingSystem/backend/SchedulingSystem.Api.csproj": {}
+    "/home/fell233/MyProjects/SchedulingSystem/backend/SchedulingSystem.Api.csproj": {}
   },
   "projects": {
-    "/home/fellipe/MyProjects/SchedulingSystem/backend/SchedulingSystem.Api.csproj": {
+    "/home/fell233/MyProjects/SchedulingSystem/backend/SchedulingSystem.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fellipe/MyProjects/SchedulingSystem/backend/SchedulingSystem.Api.csproj",
+        "projectUniqueName": "/home/fell233/MyProjects/SchedulingSystem/backend/SchedulingSystem.Api.csproj",
         "projectName": "SchedulingSystem.Api",
-        "projectPath": "/home/fellipe/MyProjects/SchedulingSystem/backend/SchedulingSystem.Api.csproj",
-        "packagesPath": "/home/fellipe/.nuget/packages/",
-        "outputPath": "/home/fellipe/MyProjects/SchedulingSystem/backend/obj/",
+        "projectPath": "/home/fell233/MyProjects/SchedulingSystem/backend/SchedulingSystem.Api.csproj",
+        "packagesPath": "/home/fell233/.nuget/packages/",
+        "outputPath": "/home/fell233/MyProjects/SchedulingSystem/backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/fellipe/.nuget/NuGet/NuGet.Config"
+          "/home/fell233/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -53,6 +53,8 @@
               "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.10, )"
             },
